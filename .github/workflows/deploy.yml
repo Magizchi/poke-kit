@@ -13,3 +13,9 @@ jobs:
         username: ${{ secrets.USERNAME }}
         port: ${{ secrets.PORT }}
         key: ${{ secrets.SSHKEY }}
+        script: |
+          cd /var/www/pokeKit
+          git pull origin main
+          git status
+          npm install --only=prod
+          npm run build
