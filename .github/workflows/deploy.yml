@@ -5,6 +5,7 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+    
     steps:
     - name: SSH test
       uses: appleboy/scp-action@master
