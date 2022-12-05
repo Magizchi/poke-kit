@@ -12,3 +12,6 @@ jobs:
         HOST: ${{ secrets.HOST }}
         USERNAME: ${{ secrets.USERNAME }}
         KEY: ${{ secrets.SSHKEY }}
+        SCRIPTS: |
+          cd /var/www/poke-kit
+          npm run build
