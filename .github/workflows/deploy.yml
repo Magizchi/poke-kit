@@ -7,9 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: test var
-      run: |
-        echo "GIT": ${GITHUB.HOST}
     - name: SSH test
       uses: appleboy/ssh-action@master
       with:
