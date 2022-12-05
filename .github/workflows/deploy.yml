@@ -9,8 +9,7 @@ jobs:
     steps:
     - name: test var
       run: |
-        echo "GIT": ${GITHUB_HOST}
-        echo "GET": ${secrets.USERNAME}
+        echo "GIT": ${GITHUB.HOST}
     - name: SSH test
       uses: appleboy/ssh-action@master
       with:
