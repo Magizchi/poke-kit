@@ -15,4 +15,4 @@ jobs:
       with:
         HOST: ${{ secrets.HOST }}
         USERNAME: ${{ secrets.USERNAME }}
-        KEY: ${{ secrets.SSHKEY }}
+        SSHKEY: ${{ secrets.SSHKEY }}
