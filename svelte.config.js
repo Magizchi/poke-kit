@@ -9,7 +9,10 @@ const config = {
 		postcss: true
 	}),
 	kit: {
-		adapter: adapter()
+		adapter: adapter({
+			out:'build',
+			precompress:false
+		})
 	}
 };
 

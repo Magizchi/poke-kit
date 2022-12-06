@@ -16,3 +16,4 @@ jobs:
           cd /var/www/poke-kit
           npm install
           npm run build
+          
