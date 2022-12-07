@@ -7,11 +7,11 @@ const config = {
 	// for more information about preprocessors
 	preprocess: preprocess({
 		postcss: true
+
 	}),
 	kit: {
 		adapter: adapter({
-			out:'build',
-			precompress:false
+			out:'build'
 		})
 	}
 };
