@@ -14,7 +14,7 @@ jobs:
         KEY: ${{ secrets.SSHKEY }}
         script: |
           cd /var/www/poke-kit
-          git pull
-          npm install
-          npm run build
-          npm run preview
+          sudo git clone https://github.com/Magizchi/poke-kit.git
+          sudo npm install
+          sudo npm run build
+          sudo npm run preview
